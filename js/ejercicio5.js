@@ -2,7 +2,7 @@ const btnEnviar5 = document.getElementById("btnEnviar5");
 const monto = document.getElementById("monto");
 const resultado5 = document.getElementById("resultado5")
 
-function calcular (){
+function calcular2 (){
     let mnt = monto.value;
     let ginecologia = parseInt(mnt)*0.40;
     gine = ginecologia.toLocaleString("en-Us");
@@ -15,4 +15,4 @@ function calcular (){
                             "El monto para Traumatologia es S/ " + trau;
 }
 
-btnEnviar5.onclick = () => calcular();
+btnEnviar5.onclick = () => calcular2();
